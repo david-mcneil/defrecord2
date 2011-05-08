@@ -4,7 +4,10 @@
   (:use [clojure test]
         [clojure.string :only (upper-case)]
         [defrecord2.test-record-helper :only (new-foo-helper)]
-        [defrecord2.defrecord2-core]
+        [defrecord2.defrecord2-core :only (defrecord2 camel-to-dashed new-record dissoc2 prewalk2
+                                            postwalk2 apply-to-symbol record-zip record-branch?
+                                            record-node-children record-make-node match-record
+                                            record-matcher)]
         [clojure.pprint :only (pprint)])
   (:import [clojure.lang IPersistentVector]))
 
