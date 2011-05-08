@@ -1,3 +1,7 @@
+Enhanced clojure records. See [http://david-mcneil.com/post/765563763/enhanced-clojure-records](http://david-mcneil.com/post/765563763/enhanced-clojure-records) for .
+
+----
+
 Update May 2011
  * record zipper support
  * record matchure support
